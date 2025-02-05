@@ -23,17 +23,17 @@
             display: flex;
             align-items: center;
             gap: 20px;
+            flex-direction: column;
         }
         .event img {
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            max-width: 200px;
+            height: auto;
             border-radius: 10px;
             transition: 0.5s ease;
         }
         .event img:hover {
-            width: 250px;
-            height: 250px;
-            border-radius: 10px;
+            max-width: 250px;
             transition: 0.5s ease;
         }
         h1, h2, h3 {
@@ -49,6 +49,7 @@
         }
         p {
             color: #c0ff00;
+            text-align: center;
         }
         .event h2:hover{
             color: azure;
@@ -62,6 +63,15 @@
             background-color: #5a0082;
             color: white;
             text-align: center;
+        }
+        @media (min-width: 768px) {
+            .event {
+                flex-direction: row;
+                text-align: left;
+            }
+            .event p {
+                text-align: left;
+            }
         }
     </style>
 </head>
@@ -125,6 +135,8 @@
                 <p>Mała Fatra to pasmo górskie na Słowacji, na które udali się wędrownicy z naszej drużyny(i nie tylko)<br/>trasa była bardzo wymagająca, były na niej schodki, drabinki, łanćuchy, mosty, wodospady, a najwyższy punkt w jakim byliśmy miał 1625m n.p.m<br/></p>
             </div>
         </div>
+    </div>
+        
     </div>
     
     <script>
