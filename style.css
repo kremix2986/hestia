@@ -1,7 +1,5 @@
 @font-face {
     font-family: 'Museo 300';
-    font-style: normal;
-    font-weight: normal;
     src: local('Museo 300'), url('Museo300-Regular.woff') format('woff');
 }
 body {
@@ -75,4 +73,5 @@ footer {
 }
 .bold{
     font-weight: bolder;
+    
 }
