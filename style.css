@@ -73,5 +73,17 @@ footer {
 }
 .bold{
     font-weight: bolder;
-    
+}
+.drużynowy{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.druzynowy-link:hover{
+    color: azure;
+    transition: 0.5s ease;
+}
+.druzynowy-link{
+    color: #d4ff00;
+    transition: 0.5s ease;
 }
